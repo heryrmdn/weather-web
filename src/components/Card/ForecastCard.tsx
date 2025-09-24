@@ -1,4 +1,5 @@
 import { Box, Button, Card, CardActions, CardContent, Typography } from "@mui/material";
+import type { CardProps } from "../../interfaces/CardProps";
 
 const bull = (
   <Box component="span" sx={{ display: "inline-block", mx: "2px", transform: "scale(0.8)" }}>
@@ -6,9 +7,9 @@ const bull = (
   </Box>
 );
 
-export default function ForecastCard() {
+export default function ForecastCard({ sx }: CardProps) {
   return (
-    <Card sx={{ minWidth: 275 }}>
+    <Card sx={{ ...sx }}>
       <CardContent>
         <Typography gutterBottom sx={{ color: "text.secondary", fontSize: 14 }}>
           Word of the Day

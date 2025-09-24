@@ -15,19 +15,19 @@ export default function MainContent() {
           <DropdownSearch />
         </Grid>
         <Grid size={{ xs: 12, md: 3 }}>
-          <CurrentWeatherCard />
+          <CurrentWeatherCard sx={{ minWidth: 275, borderRadius: 3 }} />
         </Grid>
         <Grid size={{ xs: 12, md: 6 }}>
-          <MapsCard />
+          <MapsCard sx={{ minWidth: 275, borderRadius: 3 }} />
         </Grid>
         <Grid size={{ xs: 12, md: 3 }}>
-          <PopularCitiesCard />
+          <PopularCitiesCard sx={{ minWidth: 275, borderRadius: 3 }} />
         </Grid>
         <Grid size={{ xs: 12, md: 3 }}>
-          <ForecastCard />
+          <ForecastCard sx={{ minWidth: 275, borderRadius: 3 }} />
         </Grid>
         <Grid size={{ xs: 12, md: 9 }}>
-          <SummaryCard />
+          <SummaryCard sx={{ minWidth: 275, borderRadius: 3 }} />
         </Grid>
       </Grid>
     </Box>
