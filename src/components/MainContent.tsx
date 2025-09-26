@@ -9,19 +9,19 @@ import SummaryCard from "./Card/SummaryCard";
 
 export default function MainContent() {
   return (
-    <Box sx={{ flexGrow: 1, padding: 2 }}>
+    <Box sx={{ flexGrow: 1, padding: 3 }}>
       <Grid container spacing={2}>
         <Grid size={{ xs: 12, md: 12 }} display={"flex"}>
           <DropdownSearch />
         </Grid>
         <Grid size={{ xs: 12, md: 3 }}>
-          <CurrentWeatherCard sx={{ minWidth: 275, borderRadius: 3 }} />
+          <CurrentWeatherCard sx={{ minWidth: 275, borderRadius: 3, paddingX: 1.5, paddingY: 0.5 }} />
         </Grid>
         <Grid size={{ xs: 12, md: 6 }}>
           <MapsCard sx={{ minWidth: 275, borderRadius: 3 }} />
         </Grid>
         <Grid size={{ xs: 12, md: 3 }}>
-          <PopularCitiesCard sx={{ minWidth: 275, borderRadius: 3 }} />
+          <PopularCitiesCard sx={{ minWidth: 275, borderRadius: 3, paddingX: 1.5, paddingY: 0.5 }} />
         </Grid>
         <Grid size={{ xs: 12, md: 3 }}>
           <ForecastCard sx={{ minWidth: 275, borderRadius: 3 }} />

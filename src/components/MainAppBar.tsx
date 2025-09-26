@@ -16,7 +16,7 @@ function MainAppBar() {
     <AppBar position="static">
       <Container maxWidth="xl">
         <Toolbar disableGutters sx={{ justifyContent: xs ? "center" : "" }}>
-          <Cloud sx={{ display: "flex", mr: 3 }} />
+          <Cloud sx={{ display: "flex", mr: 2 }} />
           <Typography
             variant={xs ? "h5" : "h6"}
             noWrap
@@ -26,7 +26,7 @@ function MainAppBar() {
               mr: 2,
               display: "flex",
               fontWeight: 700,
-              letterSpacing: ".2rem",
+              letterSpacing: ".1rem",
               color: "inherit",
               textDecoration: "none",
             }}>
